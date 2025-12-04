@@ -145,6 +145,7 @@ const App = () => {
               </svg>
               <p>Verbal Ability</p>
               <h1>Nouman Ansari</h1>
+              <p>My name is "Nouman Ansari". And I am 21 years old.</p>
             </div>
             <div className="flex gap-2 items-center hover:text-2xl cursor-pointer">
               <svg
