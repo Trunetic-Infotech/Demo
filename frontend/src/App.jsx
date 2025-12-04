@@ -13,8 +13,7 @@ const App = () => {
             height="48"
             viewBox="0 0 48 48"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <path
               d="M6 24H42M6 12H42M6 36H42"
               stroke="#1E1E1E"
@@ -27,7 +26,9 @@ const App = () => {
 
         {/* Centered Title */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <p className="text-2xl md:text-3xl text-white font-bold">Sample</p>
+          <p className="text-2xl md:text-3xl text-white font-bold">
+            Sampleeeeee
+          </p>
         </div>
 
         {/* Search Box (Right) */}
@@ -42,8 +43,7 @@ const App = () => {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <path
               d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14583 15.3708 4.8875 14.1125C3.62917 12.8542 3 11.3167 3 9.5C3 7.68333 3.62917 6.14583 4.8875 4.8875C6.14583 3.62917 7.68333 3 9.5 3C11.3167 3 12.8542 3.62917 14.1125 4.8875C15.3708 6.14583 16 7.68333 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L21 19.6L19.6 21ZM9.5 14C10.75 14 11.8125 13.5625 12.6875 12.6875C13.5625 11.8125 14 10.75 14 9.5C14 8.25 13.5625 7.1875 12.6875 6.3125C11.8125 5.4375 10.75 5 9.5 5C8.25 5 7.1875 5.4375 6.3125 6.3125C5.4375 7.1875 5 8.25 5 9.5C5 10.75 5.4375 11.8125 6.3125 12.6875C7.1875 13.5625 8.25 14 9.5 14Z"
               fill="#1D1B20"
@@ -57,16 +57,14 @@ const App = () => {
           <div
             className="h-full absolute bg-[#ECFEE3] text-sm lg:text-xl font-bold p-5 flex flex-col gap-3 border-r-2 border-black
     w-[50%] sm:w-[40%] md:w-[25%] lg:w-[20%] xl:w-[15%] transition-transform transform
-    md:translate-x-0 md:relative md:flex md:block z-50"
-          >
+    md:translate-x-0 md:relative md:flex md:block z-50">
             <div className="flex gap-2 items-center hover:text-2xl cursor-pointer">
               <svg
                 width="38"
                 height="32"
                 viewBox="0 0 38 32"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M14.25 29.3333V16H23.75V29.3333M4.75 12L19 2.66666L33.25 12V26.6667C33.25 27.3739 32.9164 28.0522 32.3225 28.5523C31.7286 29.0524 30.9232 29.3333 30.0833 29.3333H7.91667C7.07681 29.3333 6.27136 29.0524 5.6775 28.5523C5.08363 28.0522 4.75 27.3739 4.75 26.6667V12Z"
                   stroke="#1E1E1E"
@@ -78,7 +76,7 @@ const App = () => {
 
               <p>Home</p>
             </div>
-            <div className="border-t-2 border-black my-2"></div>
+            <div className="border-t-2 border-black my-2">Hello World</div>
 
             <div className="flex gap-2 items-center hover:text-2xl cursor-pointer">
               <svg
@@ -86,16 +84,14 @@ const App = () => {
                 height="46"
                 viewBox="0 0 35 46"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <rect width="35" height="46" fill="url(#pattern0)" />
                 <defs>
                   <pattern
                     id="pattern0"
                     patternContentUnits="objectBoundingBox"
                     width="1"
-                    height="1"
-                  >
+                    height="1">
                     <use
                       href="#image0"
                       transform="matrix(0.0505495 0 0 0.0384615 -0.00549451 0)"
@@ -119,8 +115,7 @@ const App = () => {
                 height="48"
                 viewBox="0 0 48 48"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M36 40V20M24 40V8M12 40V28"
                   stroke="#1E1E1E"
@@ -139,8 +134,7 @@ const App = () => {
                 height="35"
                 viewBox="0 0 38 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M14.25 16.0417L19 20.4167L34.8333 5.83333M33.25 17.5V27.7083C33.25 28.4819 32.9164 29.2237 32.3225 29.7707C31.7286 30.3177 30.9232 30.625 30.0833 30.625H7.91667C7.07681 30.625 6.27136 30.3177 5.67749 29.7707C5.08363 29.2237 4.75 28.4819 4.75 27.7083V7.29167C4.75 6.51812 5.08363 5.77625 5.67749 5.22927C6.27136 4.68229 7.07681 4.375 7.91667 4.375H25.3333"
                   stroke="#1E1E1E"
@@ -150,6 +144,7 @@ const App = () => {
                 />
               </svg>
               <p>Verbal Ability</p>
+              <h1>Nouman Ansari</h1>
             </div>
             <div className="flex gap-2 items-center hover:text-2xl cursor-pointer">
               <svg
@@ -157,8 +152,7 @@ const App = () => {
                 height="38"
                 viewBox="0 0 42 38"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M21 3.16666V9.49999M21 28.5V34.8333M8.6275 7.80582L13.58 12.2867M28.42 25.7133L33.3725 30.1942M3.5 19H10.5M31.5 19H38.5M8.6275 30.1942L13.58 25.7133M28.42 12.2867L33.3725 7.80582"
                   stroke="#1E1E1E"
@@ -176,8 +170,7 @@ const App = () => {
                 height="39"
                 viewBox="0 0 35 39"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M14.5833 4.875H4.375V16.25H14.5833V4.875Z"
                   stroke="#1E1E1E"
@@ -218,8 +211,7 @@ const App = () => {
                 height="38"
                 viewBox="0 0 35 38"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_223)">
                   <path
                     d="M17.5 14.25V19L19.6875 21.375M24.0771 27.4708L23.5667 33.535C23.501 34.3245 23.1649 35.0586 22.6249 35.5921C22.0848 36.1257 21.3801 36.4199 20.65 36.4167H14.3354C13.6053 36.4199 12.9006 36.1257 12.3605 35.5921C11.8205 35.0586 11.4845 34.3245 11.4188 33.535L10.9083 27.4708M10.9229 10.5292L11.4333 4.46501C11.4988 3.67821 11.8328 2.94641 12.3698 2.41325C12.9067 1.88009 13.6078 1.58408 14.3354 1.58334H20.6792C21.4093 1.58012 22.114 1.87435 22.654 2.4079C23.1941 2.94144 23.5301 3.67549 23.5958 4.46501L24.1063 10.5292M27.7083 19C27.7083 25.1212 23.1379 30.0833 17.5 30.0833C11.8621 30.0833 7.29167 25.1212 7.29167 19C7.29167 12.8788 11.8621 7.91667 17.5 7.91667C23.1379 7.91667 27.7083 12.8788 27.7083 19Z"
@@ -244,8 +236,7 @@ const App = () => {
                 height="40"
                 viewBox="0 0 37 40"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M36 19.987C36.0016 23.7848 34.9538 27.4958 32.992 30.6401C31.0302 33.7845 28.2447 36.2177 24.9956 37.6252V37.6252C21.455 39.1599 17.5494 39.3962 13.8736 38.2981C10.1979 37.2 6.95346 34.8277 4.63456 31.5426V31.5426C3.11181 29.3832 2.03287 26.8947 1.47036 24.2446C0.907844 21.5945 0.874819 18.8444 1.37351 16.1793V16.1793L1.39205 16.0815C1.97422 13.0873 3.2133 10.2899 5.00409 7.92671C6.79488 5.56351 9.08449 3.70433 11.6785 2.50701V2.50701C13.4468 1.69671 15.3268 1.21077 17.2417 1.06904C17.6735 1.01727 18.0894 1.00001 18.5106 1.00001C22.9103 0.994114 27.15 2.79113 30.3821 6.03183C33.6143 9.27254 35.6007 13.7182 35.9444 18.48C35.9815 18.9747 36 19.4809 36 19.987Z"
                   stroke="#1D1D1D"
@@ -451,8 +442,7 @@ const App = () => {
                 height="46"
                 viewBox="0 0 46 46"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_2_16)">
                   <path
                     d="M33.0555 20.5833C33.0555 21.1816 32.5705 21.6667 31.9722 21.6667C31.3739 21.6667 30.8889 21.1816 30.8889 20.5833C30.8889 19.9851 31.3739 19.5 31.9722 19.5C32.5705 19.5 33.0555 19.9851 33.0555 20.5833Z"
@@ -488,8 +478,7 @@ const App = () => {
                     width="46"
                     height="46"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
+                    color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
@@ -530,8 +519,7 @@ const App = () => {
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
@@ -548,8 +536,7 @@ const App = () => {
                 height="25"
                 viewBox="0 0 35 25"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.375 12.25C14.7591 12.25 17.5 9.50906 17.5 6.125C17.5 2.74094 14.7591 0 11.375 0C7.99094 0 5.25 2.74094 5.25 6.125C5.25 9.50906 7.99094 12.25 11.375 12.25Z"
                   fill="#333333"
@@ -576,8 +563,7 @@ const App = () => {
                 height="25"
                 viewBox="0 0 35 25"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.375 12.25C14.7591 12.25 17.5 9.50906 17.5 6.125C17.5 2.74094 14.7591 0 11.375 0C7.99094 0 5.25 2.74094 5.25 6.125C5.25 9.50906 7.99094 12.25 11.375 12.25Z"
                   fill="#333333"
@@ -605,8 +591,7 @@ const App = () => {
                 height="38"
                 viewBox="0 0 30 38"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
@@ -623,8 +608,7 @@ const App = () => {
                 height="34"
                 viewBox="0 0 35 34"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M26.25 8.75C26.25 13.5844 22.3344 17.5 17.5 17.5C12.6656 17.5 8.75 13.5844 8.75 8.75C8.75 3.91563 12.6656 0 17.5 0C22.3344 0 26.25 3.91563 26.25 8.75Z"
                   fill="#333333"
@@ -645,8 +629,7 @@ const App = () => {
                 height="36"
                 viewBox="0 0 35 36"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
@@ -667,8 +650,7 @@ const App = () => {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+                strokeLinejoin="round">
                 <rect x="7" y="7" width="10" height="10" rx="2" />
                 <path d="M3 10h4" />
                 <path d="M3 14h4" />
@@ -692,15 +674,16 @@ const App = () => {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+                strokeLinejoin="round">
                 <circle cx="12" cy="12" r="3" />
                 <path d="M19.4 15a7.9 7.9 0 0 0 .6-3 7.9 7.9 0 0 0-.6-3l2.1-1.7-2-3.5-2.6 1a7.9 7.9 0 0 0-3-1.2L12 1l-1.5.6a7.9 7.9 0 0 0-3 1.2l-2.6-1-2 3.5 2.1 1.7a7.9 7.9 0 0 0-.6 3c0 1 .2 2 .6 3L3 16.7l2 3.5 2.6-1a7.9 7.9 0 0 0 3 1.2L12 23l1.5-.6a7.9 7.9 0 0 0 3-1.2l2.6 1 2-3.5-2.1-1.7z" />
               </svg>
               <p>Mechanical Engineering</p>
             </div>
           </div>
-        ) : ""}
+        ) : (
+          ""
+        )}
 
         {/* Content */}
         <div className="p-5 flex flex-col gap-5">
@@ -712,49 +695,49 @@ const App = () => {
             </p>
           </div>
           {/* Cards */}
-          <div className={`grid grid-cols-1 ${isOpen ? "md:grid-cols-1" : "md:grid-cols-2"} ${isOpen ? "lg:grid-cols-4" : "lg:grid-cols-6"}   gap-3 `}>
           <div
-  className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
->
-  <p className="text-xl font-bold pl-5">General Aptitude</p>
-  <div className="flex flex-col pl-10 gap-3 font-medium">
-    {[
-      "Arithmetic Aptitude",
-      "Data Interpretation",
-      "Online Aptitude Test",
-      "Data Interpretation Test",
-    ].map((text, index) => (
-      <p key={index} className="flex items-center gap-3">
-        <span>
-          <svg
-            width="20"
-            height="13"
-            viewBox="0 0 20 13"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
-              fill="#1D1B20"
-            />
-          </svg>
-        </span>
-        {text}
-      </p>
-    ))}
-  </div>
-</div>
+            className={`grid grid-cols-1 ${
+              isOpen ? "md:grid-cols-1" : "md:grid-cols-2"
+            } ${isOpen ? "lg:grid-cols-4" : "lg:grid-cols-6"}   gap-3 `}>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
+              <p className="text-xl font-bold pl-5">General Aptitude</p>
+              <div className="flex flex-col pl-10 gap-3 font-medium">
+                {[
+                  "Arithmetic Aptitude",
+                  "Data Interpretation",
+                  "Online Aptitude Test",
+                  "Data Interpretation Test",
+                ].map((text, index) => (
+                  <p key={index} className="flex items-center gap-3">
+                    <span>
+                      <svg
+                        width="20"
+                        height="13"
+                        viewBox="0 0 20 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
+                          fill="#1D1B20"
+                        />
+                      </svg>
+                    </span>
+                    {text}
+                  </p>
+                ))}
+              </div>
+            </div>
+            <div
+              className={`${
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -764,8 +747,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -781,8 +763,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -798,8 +779,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -815,8 +795,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -829,11 +808,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -843,8 +821,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -860,8 +837,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -877,8 +853,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -894,8 +869,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -908,11 +882,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -922,8 +895,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -939,8 +911,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -956,8 +927,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -973,8 +943,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -987,11 +956,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1001,8 +969,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1018,8 +985,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1035,8 +1001,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1052,8 +1017,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1066,11 +1030,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1080,8 +1043,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1097,8 +1059,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1114,8 +1075,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1131,8 +1091,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1145,11 +1104,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1159,8 +1117,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1176,8 +1133,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1193,8 +1149,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1210,8 +1165,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1224,11 +1178,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1238,8 +1191,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1255,8 +1207,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1272,8 +1223,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1289,8 +1239,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1303,11 +1252,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1317,8 +1265,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1334,8 +1281,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1351,8 +1297,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1368,8 +1313,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1382,11 +1326,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1396,8 +1339,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1413,8 +1355,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1430,8 +1371,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1447,8 +1387,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1461,11 +1400,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1475,8 +1413,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1492,8 +1429,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1509,8 +1445,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1526,8 +1461,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1540,11 +1474,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1554,8 +1487,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1571,8 +1503,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1588,8 +1519,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1605,8 +1535,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1619,11 +1548,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1633,8 +1561,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1650,8 +1577,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1667,8 +1593,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1684,8 +1609,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1698,11 +1622,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1712,8 +1635,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1729,8 +1651,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1746,8 +1667,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1763,8 +1683,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1777,11 +1696,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1791,8 +1709,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1808,8 +1725,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1825,8 +1741,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1842,8 +1757,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1856,11 +1770,10 @@ const App = () => {
             </div>
             <div
               className={`${
-    isOpen
-      ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
-      : "w-full max-w-[500px] min-h-[250px]"
-  } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}
-            >
+                isOpen
+                  ? "w-full max-w-[350px] min-h-[200px] md:max-w-[400px] lg:max-w-[500px] lg:min-h-[250px] gap-2"
+                  : "w-full max-w-[500px] min-h-[250px]"
+              } bg-gray-200 flex flex-col p-5 drop-shadow-xl`}>
               <p className="text-xl font-bold pl-5">General Aptitude</p>
               <div className="flex flex-col pl-10 gap-3 font-medium">
                 <p className="flex items-center gap-3">
@@ -1870,8 +1783,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1887,8 +1799,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1904,8 +1815,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1921,8 +1831,7 @@ const App = () => {
                       height="13"
                       viewBox="0 0 20 13"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.66666 10.2917V2.70834L15.8333 6.50001L6.66666 10.2917Z"
                         fill="#1D1B20"
@@ -1950,8 +1859,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                   <path d="M14 2v6h6" />
                   <circle cx="12" cy="11" r="2" />
@@ -1971,8 +1879,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                   <path d="M14 2v6h6" />
                   <circle cx="12" cy="11" r="2" />
@@ -1993,8 +1900,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M4 4h16v16H4z" />
                   <path d="M16 2v4" />
                   <path d="M8 2v4" />
@@ -2017,8 +1923,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <circle cx="12" cy="8" r="4" />
                   <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" />
                   <path d="M16 3h6" />
@@ -2036,8 +1941,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                 </svg>
                 <p>Dark Mode</p>
@@ -2052,8 +1956,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M3 8l9 6 9-6" />
                   <rect x="2" y="5" width="20" height="14" rx="2" />
                   <path d="M16 21h6" />
@@ -2071,8 +1974,7 @@ const App = () => {
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   <path d="M21 10c0 3.9-3.1 7-7 7H7l-4 4V7a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5z" />
                   <polygon points="12 8 13.09 10.26 15.5 10.5 13.5 12.24 14 14.5 12 13.25 10 14.5 10.5 12.24 8.5 10.5 10.91 10.26 12 8" />
                 </svg>
